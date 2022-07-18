@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class GetInputData {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		  int x = sc.nextInt();
+		Scanner s= new Scanner(System.in);
+		  int x = s.nextInt();
 		  System.out.println("Entered Integer : " + x);
+		  s.close();
 
 	}
 
