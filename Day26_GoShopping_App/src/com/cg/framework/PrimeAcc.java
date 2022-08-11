@@ -3,7 +3,7 @@ package com.cg.framework;
 public abstract class PrimeAcc extends ShopAcc
 {
 	private boolean inPrime;
-	static final private float deliveryCharges=0f;
+	static final private float deliveryCharges=0.0f;
 	//constructor
 	public PrimeAcc(int accNo, String accNm, float charges,boolean isPrime) {
 		super(accNo, accNm, charges);
